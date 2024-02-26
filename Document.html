@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Hangman</title>
+<link rel="stylesheet" href="Tyyli/tyyli.css">
+</head>
+<body>
+<div class="container">
+    <h1>Hangman</h1>
+    <p id="instruction">Enter a letter or guess word</p>
+    <input type="text" id="guessInput" placeholder="Write your guess here">
+    <button id="guessButton">Guess</button>
+    <p id="guessCount">Number of guesses: <span id="guessNumber">0</span></p>
+    <div id="wordDisplay">
+        <p id="instructionText">try to guess this word</p>
+        <p id="maskedWord">***</p>
+    </div>
+    <p id="message"></p>
+</div>
+<script src="javascript/funktions.js"></script>
+</body>
+</html>
